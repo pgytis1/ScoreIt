@@ -1,0 +1,18 @@
+{
+  "extends": "airbnb",
+  "plugins": [
+    "react",
+    "jsx-a11y",
+    "import"
+  ],
+  "globals": {
+    "window": true,
+    "document": true
+  },
+  "rules": {
+    "linebreak-style": "off",
+    "comma-dangle": "off",
+    "indent": ["error", 4],
+    "react/jsx-indent": ["error", 4]
+  }
+}

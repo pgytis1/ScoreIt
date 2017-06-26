@@ -1,0 +1,4 @@
+export const FETCH_LEADERBOARD = 'leaderboard/FETCH_LEADERBOARD';
+export const CONCAT_LEADERBOARD = 'leaderboard/CONCAT_LEADERBOARD';
+export const RECEIVING_LEADERBOARD = 'leaderboard/RECEIVING_LEADERBOARD';
+export const LEADERBOARD_RECEIVED = 'leaderboard/LEADERBOARD_RECEIVED';

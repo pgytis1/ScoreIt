@@ -1,0 +1,9 @@
+diff a/ScoreIT/src/ScoreIT/Scripts/recentGames/actions.js b/ScoreIT/src/ScoreIT/Scripts/recentGames/actions.js	(rejected hunks)
+@@ -27,6 +27,7 @@
+         request
+             .get(apiUrl)
+             .end((err, res) => {
++                if (err) {
+                     dispatch(showError([`${err}`]));
+                 } else {
+                     dispatch({
